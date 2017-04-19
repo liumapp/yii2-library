@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Administrator
+ * User: liumapp
  * Date: 2016/7/7 0007
  * Time: 下午 3:05
  */
@@ -168,7 +168,6 @@ class ModelHelper
      * @param string $child 子节点字段
      * @param int
      * @return array
-     * @author gang.dun <dungang@huluwa.cc>
      */
     static public function listToTree($list, $pk='id', $pid = 'pid', $child = 'items', $root = 0)
     {

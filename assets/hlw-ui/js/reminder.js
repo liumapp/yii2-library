@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2017/2/22.
+ * Created by liumapp on 2017/2/22.
  */
 
 (function ($) {
