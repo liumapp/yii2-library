@@ -3,9 +3,9 @@
 namespace liumapp\library\models;
 
 use liumapp\library\models\Admin;
-use huluwa\common\helpers\ModelHelper;
+use liumapp\library\helpers\ModelHelper;
 use Yii;
-use huluwa\common\behaviors\TimestampBehavior;
+use liumapp\library\behaviors\TimestampBehavior;
 use yii\db\Query;
 use yii\helpers\ArrayHelper;
 

@@ -1,7 +1,7 @@
 <?php
 
 use yii\db\Migration;
-use huluwa\rbac\helpers\RbacHelper;
+use liumapp\library\helpers\RbacHelper;
 
 /**
  * Handles the creation of table `organization`.

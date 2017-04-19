@@ -13,7 +13,7 @@ use liumapp\library\models\Organization;
 use yii\base\Behavior;
 use yii\web\User;
 
-class LoginBehavior extends Behavior
+class OrganizationLoginBehavior extends Behavior
 {
 
     public function events()

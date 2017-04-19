@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use huluwa\common\helpers\ViewHelper;
+use liumapp\library\helpers\ViewHelper;
 
 /* @var $this yii\web\View */
 /* @var $model liumapp\library\models\Organization */

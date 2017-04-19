@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use huluwa\common\widgets\TreeListView;
+use liumapp\library\widgets\TreeListView;
 use yii\widgets\ActiveForm;
 use yii\grid\CheckboxColumn;
 
@@ -16,8 +16,8 @@ $this->title = '分配组织 / ' . $admin->userName;
     <div class="box-header with-border">
         <h3 class="box-title"><?php echo Html::encode($this->title) ?></h3>
         <div class="box-tools">
-            <?= \huluwa\common\helpers\ViewHelper::saveButton() ?>
-            <?= \huluwa\common\helpers\ViewHelper::backButton() ?>
+            <?= \liumapp\library\helpers\ViewHelper::saveButton() ?>
+            <?= \liumapp\library\helpers\ViewHelper::backButton() ?>
         </div><!-- /.box-tools -->
     </div><!-- /.box-header -->
     <div class="box-body">

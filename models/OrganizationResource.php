@@ -3,7 +3,7 @@
 namespace liumapp\library\models;
 
 use Yii;
-use huluwa\common\behaviors\TimestampBehavior;
+use liumapp\library\behaviors\TimestampBehavior;
 
 /**
  * This is the model class for table "sys_organization_resources".

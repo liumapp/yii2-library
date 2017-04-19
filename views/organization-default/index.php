@@ -12,11 +12,11 @@ $this->title = '组织';
     <div class="box-header with-border">
         <h3 class="box-title"><?=Html::encode($this->title)?></h3>
         <div class="box-tools">
-            <?= \huluwa\common\helpers\ViewHelper::linkAddButton() ?>
+            <?= \liumapp\library\helpers\ViewHelper::linkAddButton() ?>
         </div><!-- /.box-tools -->
     </div><!-- /.box-header -->
     <div class="box-body">
-        <?= \huluwa\common\widgets\TreeListView::widget([
+        <?= \liumapp\library\widgets\TreeListView::widget([
             'dataProvider' => $dataProvider,
             'tableOptions' => ['class' => 'table table-bordered table-hover dataTable'],
             'treeField'=>'name',
@@ -24,7 +24,7 @@ $this->title = '组织';
                 'name',
                 'ownerId',
                 'power',
-                ['class' => 'huluwa\common\components\ActionColumn'],
+                ['class' => 'liumapp\library\components\ActionColumn'],
             ],
         ]);
         ?>

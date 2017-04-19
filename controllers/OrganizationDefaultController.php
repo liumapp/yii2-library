@@ -7,14 +7,14 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use huluwa\common\helpers\ModelHelper;
+use liumapp\library\helpers\ModelHelper;
 use liumapp\library\models\Organization;
 use liumapp\library\models\OrganizationSearch;
 
 /**
  * OrganizationController implements the CRUD actions for Organization model.
  */
-class DefaultController extends Controller
+class OrganizationDefaultController extends Controller
 {
     /**
      * @inheritdoc

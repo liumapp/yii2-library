@@ -4,7 +4,7 @@ namespace liumapp\library\models;
 
 use liumapp\library\models\Admin;
 use Yii;
-use huluwa\common\behaviors\TimestampBehavior;
+use liumapp\library\behaviors\TimestampBehavior;
 use yii\helpers\ArrayHelper;
 
 /**

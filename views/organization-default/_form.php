@@ -1,6 +1,6 @@
 <?php
 
-use huluwa\common\helpers\ViewHelper;
+use liumapp\library\helpers\ViewHelper;
 use yii\widgets\ActiveForm;
 use yii\helpers\Html;
 
