@@ -1,0 +1,32 @@
+.chooser .tree ul{
+    list-style: none;
+}
+
+.chooser .tree .tree-node{
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 14px;
+}
+
+.chooser .tree li .tree-chooser{
+    display: inline-block;
+    line-height: normal;
+    padding:4px;
+}
+
+.chooser .tree li .tree-chooser label{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.chooser .chooser-tags {
+    border: 1px solid lightgray;
+    margin-bottom: 5px;
+    min-height: 34px;
+    line-height: 34px;
+}
+
+.chooser .chooser-tags span {
+    margin:2px;
+}
