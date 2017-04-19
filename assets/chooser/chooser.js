@@ -1,5 +1,5 @@
 /**
- * Created by dungang@huluwa.cc on 2016/12/6.
+ * Created by liumapp.com@gmail.com on 2016/12/6.
  * 人员选择器
  */
 +function ($) {

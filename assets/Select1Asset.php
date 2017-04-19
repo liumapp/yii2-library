@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class Select1Asset extends AssetBundle
 {
-    public $sourcePath = '@vendor/huluwa/common/assets/select1/';
+    public $sourcePath = '@vendor/liumapp/yii2-library/assets/select1/';
     public $js = ['select1.js'];
     public $publishOptions = [
         'forceCopy'=>true

@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class SelectBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/huluwa/common/assets/select-box/';
+    public $sourcePath = '@vendor/liumapp/yii2-library/assets/select-box/';
     public $js = ['selectBox.js'];
     public $depends = [
         'liumapp\library\assets\UIAsset'

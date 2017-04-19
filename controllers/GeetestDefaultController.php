@@ -11,7 +11,7 @@ namespace liumapp\library\controllers;
 
 use yii\web\Controller;
 
-class DefaultController extends Controller
+class GeetestDefaultController extends Controller
 {
 
     public function actionIndex()

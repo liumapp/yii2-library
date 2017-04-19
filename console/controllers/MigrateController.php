@@ -101,7 +101,7 @@ class MigrateController extends BaseMigrateController
         'add_column' => '@yii/views/addColumnMigration.php',
         'drop_column' => '@yii/views/dropColumnMigration.php',
         'create_junction' => '@yii/views/createTableMigration.php',
-        'create_mock' => '@vendor/huluwa/common/console/views/createMockMigration.php',
+        'create_mock' => '@vendor/liumapp/yii2-library/console/views/createMockMigration.php',
     ];
     /**
      * @var bool indicates whether the table names generated should consider

@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
 class ChooserAsset extends AssetBundle
 {
 
-    public $sourcePath = "@vendor/huluwa/admin/assets/chooser";
+    public $sourcePath = "@vendor/liumapp/yii2-library/assets/chooser";
 
     public $css = [
         'chooser.css'

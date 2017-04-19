@@ -64,8 +64,8 @@ class PhpMessageSource extends MessageSource
      *
      * ```php
      * [
-     *     '@vender/huluwa/admin/messages',
-     *     '@vender/huluwa/common/messages',
+     *     '@vender/liumapp/library/messages',
+     *     '@vender/liumapp/library/messages',
      * ]
      * ```
      */

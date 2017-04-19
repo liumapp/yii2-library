@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class CaptchaAsset extends AssetBundle
 {
-    public $sourcePath="@vendor/huluwa/geetest/assets/geetest/";
+    public $sourcePath="@vendor/liumapp/yii2-library/assets/geetest/";
     public $js=['geetest.js'];
     public $depends = [
         'liumapp\library\assets\GeeTestAsset'

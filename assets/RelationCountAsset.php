@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
 class RelationCountAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/huluwa/common/assets/relation-count';
+    public $sourcePath = '@vendor/liumapp/yii2-library/assets/relation-count';
 
     public $js = ['relation-count.js'];
 

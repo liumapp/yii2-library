@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: dungang@huluwa.cc
+ * User: liumapp.com@gmail.com
  * Date: 2017/1/16
  * Time: 20:58
  */
@@ -23,7 +23,7 @@ class Captcha extends InputWidget
 
     public function run()
     {
-        $this->clientOptions['url'] = Url::toRoute(['/geetest']);
+        $this->clientOptions['url'] = Url::toRoute(['/library/geetest-default']);
         $this->clientOptions['type'] = $this->value;
 
         /**
