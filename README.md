@@ -22,7 +22,7 @@ yii2-library
 --
 ```sh
 
-php yii migrate --migrationPath=@vendor/liumapp/library/migrations
+php yii migrate --migrationPath=@vendor/liumapp/yii2-library/migrations
 
 ```
 
