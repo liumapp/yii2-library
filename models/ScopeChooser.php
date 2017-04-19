@@ -3,8 +3,8 @@
 namespace liumapp\library\models;
 
 
-use huluwa\organization\models\AdminOrganization;
-use huluwa\organization\models\Organization;
+use liumapp\library\models\AdminOrganization;
+use liumapp\library\models\Organization;
 use huluwa\position\models\AdminPosition;
 use huluwa\position\models\Position;
 use yii\db\Query;

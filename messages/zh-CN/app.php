@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dungang@huluwa.cc
- * Date: 2016/12/1
- * Time: 8:33
- */
 
 return [
     //actions
@@ -63,4 +57,7 @@ return [
     'Rule' => '规则',
     'Rule Name' => '规则',
     'Mod' => '模型',
+
+    'Owner ID'=>'所有者ID',
+    'Power'=>'权力'
 ];

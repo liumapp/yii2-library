@@ -1,8 +1,8 @@
 <?php
 namespace liumapp\library\controllers;
 
-use huluwa\organization\models\AdminOrganization;
-use huluwa\organization\models\Organization;
+use liumapp\library\models\AdminOrganization;
+use liumapp\library\models\Organization;
 use Yii;
 use yii\db\Query;
 use yii\filters\AccessControl;

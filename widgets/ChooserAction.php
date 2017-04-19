@@ -11,8 +11,8 @@ namespace liumapp\library\widgets;
 
 use liumapp\library\models\Admin;
 use liumapp\library\helpers\ModelHelper;
-use huluwa\organization\models\AdminOrganization;
-use huluwa\organization\models\Organization;
+use liumapp\library\models\AdminOrganization;
+use liumapp\library\models\Organization;
 use liumapp\library\auth\Role;
 use yii\base\Action;
 use yii\bootstrap\Html;

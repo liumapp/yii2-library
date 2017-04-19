@@ -8,8 +8,8 @@
 
 namespace liumapp\library\widgets;
 
-use huluwa\organization\models\AdminOrganization;
-use huluwa\Organization\models\Organization;
+use liumapp\library\models\AdminOrganization;
+use liumapp\library\models\Organization;
 use huluwa\position\models\AdminPosition;
 use huluwa\position\models\Position;
 use Yii;
