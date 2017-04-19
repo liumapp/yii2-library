@@ -2,7 +2,7 @@
 namespace liumapp\library\models;
 
 use liumapp\library\helpers\MailHelper;
-use huluwa\geetest\validators\CaptchaValidator;
+use liumapp\library\validators\CaptchaValidator;
 use Yii;
 use yii\base\Model;
 /**

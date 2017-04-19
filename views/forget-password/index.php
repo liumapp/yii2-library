@@ -28,7 +28,7 @@ $fieldOptions1 = [
         <?= $form
             ->field($model, 'verifyCode')
             ->label(false)
-            ->widget(\huluwa\geetest\widgets\Captcha::className(),
+            ->widget(\liumapp\library\widgets\Captcha::className(),
                 [
                     'clientOptions'=>[
                         'submitButton'=>'#submit'

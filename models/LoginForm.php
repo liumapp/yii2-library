@@ -1,7 +1,7 @@
 <?php
 namespace liumapp\library\models;
 
-use huluwa\geetest\validators\CaptchaValidator;
+use liumapp\library\validators\CaptchaValidator;
 use Yii;
 use yii\base\Model;
 

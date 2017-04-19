@@ -23,7 +23,8 @@
     "bower-asset/eonasdan-bootstrap-datetimepicker":"v4.14.30",
     "bower-asset/select2":"4.0.3",
     "bower-asset/ztree_v3":"v3.5.26",
-    "bower-asset/echarts":"3.3.2"
+    "bower-asset/echarts":"3.3.2",
+    "gee-team/gt-php-sdk":"v3.2.0"
   },
   "autoload": {
     "psr-4": {
