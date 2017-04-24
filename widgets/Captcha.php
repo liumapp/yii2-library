@@ -34,7 +34,7 @@ class Captcha extends InputWidget
         $input = $this->renderSingleInput();
         return Html::tag('div',$input .
             '<div class="gt-container"></div>
-            <p class="gt-wait show">正在加载验证码......</p>
+            <p class="gt-wait hide">正在加载验证码......</p>
             <p class="gt-notice hide">请先拖动验证码到相应位置</p>',$this->options);
     }
 
@@ -47,3 +47,6 @@ class Captcha extends InputWidget
         }
     }
 }
+
+
+
